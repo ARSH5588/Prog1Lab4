@@ -6,7 +6,7 @@ public class Product {
     //Variables
     int x = 3;
     int y = 4;
-
+    //What the program does
     System.out.println("This program will multiply all the numbers between 3 and 7 ");
     //The initial Value is 3
     System.out.println("Intial Value =  " + x);
