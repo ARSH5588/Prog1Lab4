@@ -1,18 +1,23 @@
+//Importing all util imports
 import java.util.*;
-
+//Class and main method
 public class Product {
   public static void main(String[] args) {
-
+    //Variables
     int x = 3;
     int y = 4;
 
+    System.out.println("This program will multiply all the numbers between 3 and 7 ");
+    //The initial Value is 3
     System.out.println("Intial Value =  " + x);
-
+    //The start of the for loop
     for (int i = 1;i < 5 ;i++) {
       x = x * y;
-      System.out.println("\t\t" +       x);
+      System.out.println("\t\t" + x);
       y++;
+      //Exit of the for loop
     }
+
   }
 }
 
