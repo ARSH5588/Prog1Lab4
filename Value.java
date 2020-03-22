@@ -1,29 +1,36 @@
+//Importing the util import
 import java.util.*;
-
+//Class and main method
 public class Value {
   public static void main(String[] args) {
-
+    //Variable
     double num;
-
+    //What the program does
     System.out.println("This program gives you the square root of numbers that are higher than 10");
-
+    //Scanner used
     Scanner value = new Scanner(System.in);
+    //Asked user to enter a higher value than 10
     System.out.println("Enter a value higher than 10");
     num = value.nextDouble();
-
+    //It will execute if number is greater than 10
     if (num > 10) {
       System.out.println("Number type = " + num);
+      //While loop will execute if number is higher than 1.01
       while (num > 1.01) {
         num = Math.sqrt(num);
         System.out.printf("\nNumber = %.2f ", num);
+        //End of while loop
       }
     }
+    //It will execute if the first if statement didnt appeal to the users answer
     else {
+      //It will execute if the number is less than or equal to 10
       while (num <= 10) {
         System.out.println("Try Again, enter another value");
         num = value.nextDouble();
       }
       System.out.println("Number type = " + num);
+      //It enters the while loop if the number is bigger than 1.01
       while (num > 1.01) {
         num = Math.sqrt(num);
         System.out.printf("\nNumber = %.2f ", num);
