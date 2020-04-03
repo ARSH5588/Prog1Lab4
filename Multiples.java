@@ -1,6 +1,10 @@
-//Importing the util import
 import java.util.*;
-//Class and main method
+/**
+*This program will find all the multiples of 7 in the range of 33 & 97
+*@author Arshjit Sansoe
+*@return count all the multiples of 7 between 33 & 97
+*@since 2020-04-02
+*/
 public class Multiples {
   public static void main(String[] args) {
     //Variables
@@ -8,7 +12,7 @@ public class Multiples {
     z++;
     final int FACTOR = 7;
     int a = 1;
-    //What the program does
+
     System.out.println("This program will find all the multiples of 7 in the range of 33 & 97 ");
     //Start of the for loop
     for (int i = 33/FACTOR; i < z ;i++) {
