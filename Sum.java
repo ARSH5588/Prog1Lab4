@@ -1,12 +1,17 @@
 //Importing the util import
 import java.util.*;
-///Class and main method
+/**
+*This program will add all the integers between 10 and 20
+*@author Arshjit Sansoe
+*@return sum of numbers between 10 & 20
+*@since 2020-04-02
+*/
 public class Sum {
   public static void main(String[] args) {
     //Variables
     int x = 10;
     int y = x + 1;
-    //What the program does
+
     System.out.println("\nThis program  will add all integers between 10 and 20 ");
     //The initial value
     System.out.println("Initial Value = " + x);
