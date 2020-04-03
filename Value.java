@@ -1,12 +1,17 @@
 //Importing the util import
 import java.util.*;
-//Class and main method
+/**
+*This program gives you the square root of numbers that are higher than 10 and will square root until it hits 1.01
+*@author Arshjit Sansoe
+*@return squre root of numbers higher than 10 until 1.01
+*@since 2020-04-02
+*/
 public class Value {
   public static void main(String[] args) {
     //Variable
     double num;
-    //What the program does
-    System.out.println("This program gives you the square root of numbers that are higher than 10");
+
+    System.out.println("This program gives you the square root of numbers that are higher than 10 and will square root until it hits 1.01");
     //Scanner used
     Scanner value = new Scanner(System.in);
     //Asked user to enter a higher value than 10
