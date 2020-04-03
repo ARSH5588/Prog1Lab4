@@ -1,12 +1,17 @@
 //Importing all util imports
 import java.util.*;
-//Class and main method
+/**
+*This program will multiply all the numbers between 3 & 7
+*@author Arshjit Sansoe
+*@return multiply 3 to 7
+*@since 2020-04-02
+*/
 public class Product {
   public static void main(String[] args) {
     //Variables
     int x = 3;
     int y = 4;
-    //What the program does
+
     System.out.println("This program will multiply all the numbers between 3 and 7 ");
     //The initial Value is 3
     System.out.println("Intial Value =  " + x);
